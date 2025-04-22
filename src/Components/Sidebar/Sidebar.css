@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Outfit:wght@100..900&display=swap');.sidebar{
+    min-height: 100vh;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(227, 226, 226); 
+    padding:10px; 
+    font-family: "Outfit", sans-serif;
+   max-width: 25%;
+   /* word-wrap:unset; */
+}
+.sidebar img{
+    width:20px;
+}
+.sidebar .menu{
+    display:block;
+    margin-left:10px;
+    cursor:pointer;
+}
+.sidebar .newchat{
+   display: inline-flex;
+   align-items: center;
+   margin-top:50px;
+   gap:10px;
+  background-color: rgb(209, 204, 204,.6);
+  padding:10px 15px;
+  border-radius:2px;
+  color:rgb(84, 83, 83);
+  font-size: 17px;
+ cursor: pointer;
+}
+
+.recent {
+    display:flex;
+    flex-direction: column;
+}
+.recent .recent-title{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.sidebar .recent-entry{
+    display: flex;
+    align-items: start;
+    gap:10px;
+    padding-right:40px;
+    border-radius: 15px;
+    color:rgb(59, 58, 58);
+    padding:5px;
+}
+.sidebar .recent-entry:hover{
+ background-color:rgb(209, 204, 204,.8) ;
+}
+.sidebar .bottom {
+    display:flex;
+    flex-direction: column;
+}
+.sidebar .bottom-item{
+    margin-left: 10px;
+    cursor: pointer;
+}
