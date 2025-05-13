@@ -1,12 +1,17 @@
-# React + Vite
+# Gemini Frontend Clone 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend-only clone of Google's Gemini interface built using **React.js**. This project replicates the design and UI/UX of Gemini, focusing on responsive design and interactive elements.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive and modern UI similar to Google's Gemini
+- Clean and modular component-based architecture
+- Built using React with hooks and functional components
+- Custom styling with CSS/Tailwind (adjust based on your setup)
+- Placeholder interaction for AI input/output fields
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js (JSX)** – For building the user interface using components
+- **CSS** – For styling and layout
+- **JavaScript (ES6+)** – Logic and interactivity
